@@ -1,0 +1,23 @@
+{
+  "name": "node-skeleton-mongoose",
+  "repository": "https://github.com/giridharsampath/node_skeleton_mongoose.git",
+  "version": "1.0.0",
+  "description": "A Simple NodeJS skeleton",
+  "main": "index.js",
+  "scripts": {
+    "start": "DEBUG=app* nodemon server",
+    "server": "DEBUG=app* node server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Unknown",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.1",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "helmet": "^4.0.0",
+    "joi": "^17.2.0",
+    "mongoose": "^5.9.28",
+    "morgan": "^1.10.0"
+  }
+}
